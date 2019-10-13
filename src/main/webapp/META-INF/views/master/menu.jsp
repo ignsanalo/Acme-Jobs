@@ -19,12 +19,19 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-			<acme:menu-suboption code="Manu's Link" action="http://www.youtube.com/"/>
+			<acme:menu-suboption code="Manu큦 Link" action="https://github.com/manrubben"/>
+			<acme:menu-separator/>
+            <acme:menu-suboption code="Alvaro큦 Link" action="https://github.com/alvdiaasc97"/>
+            <acme:menu-separator/>
+            <acme:menu-suboption code="Ignacio큦 Link" action="https://github.com/ignsanalo"/>
+            <acme:menu-separator/>
+            <acme:menu-suboption code="Adrian큦 Link" action="https://github.com/adrmadfer"/>
+            <acme:menu-separator/>
+            <acme:menu-suboption code="Josema큦 Link" action="https://github.com/josgalbal"/>
+            <acme:menu-separator/>
+            <acme:menu-suboption code="Guillermo큦 Link" action="https://github.com/guipavvar"/>
 		</acme:menu-option>
 		
-		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-			<acme:menu-suboption code="Alvaro큦 Link" action="https://github.com/alvdiaasc97"/>
-		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
