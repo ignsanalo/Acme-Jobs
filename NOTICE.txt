@@ -27,4 +27,14 @@ The following tools and components are required:
 	- Lombok 1.18.8
 
 
+Buenas soy Josema
+
+Buenas, soy Guillermo (prueba3)
+
+Hola soy Manu.
+
+Hola soy Ignacio
+
+Hola soy Álvaro
+
 Buenas, Adrian Madero Fernandez
