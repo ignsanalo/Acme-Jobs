@@ -30,8 +30,10 @@
             <acme:menu-suboption code="Josema´s Link" action="https://github.com/josgalbal"/>
             <acme:menu-separator/>
             <acme:menu-suboption code="Guillermo´s Link" action="https://github.com/guipavvar"/>
+            <acme:menu-separator/>
+            <acme:menu-suboption code="Lists" action="/anonymous/shout/list"/>
 		</acme:menu-option>
-		
+	
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>

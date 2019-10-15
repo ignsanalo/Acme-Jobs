@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!--
-- sample-data.xml
--
-- Copyright (c) 2019 Rafael Corchuelo.
--
-- In keeping with the traditional purpose of furthering education and research, it is
-- the policy of the copyright owner to permit non-commercial use and redistribution of
-- this software. It has been tested carefully, but it is not guaranteed for any particular
-- purposes.  The copyright owner does not offer any warranties or representations, nor do
-- they accept any liabilities with respect to them.
--->
+<!-- - sample-data.xml - - Copyright (c) 2019 Rafael Corchuelo. - - In keeping with the traditional purpose of furthering education and 
+	research, it is - the policy of the copyright owner to permit non-commercial use and redistribution of - this software. It has been tested 
+	carefully, but it is not guaranteed for any particular - purposes. The copyright owner does not offer any warranties or representations, 
+	nor do - they accept any liabilities with respect to them. -->
 
 <beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
+
+	<!-- Shouts -->
+
+	<bean id="Shout01" class="acme.entities.shouts.Shout">
+		<property name="author" value="John Doe"></property>
+		<property name="text" value="I´m happy"></property>
+		<property name="moment" value="2019/09/09 10:00"></property>
+	</bean>
+
+	<bean id="Shout02" class="acme.entities.shouts.Shout">
+		<property name="author" value="Jane Doe"></property>
+		<property name="text" value="I´m the master of my room"></property>
+		<property name="moment" value="2019/08/09 15:55"></property>
+	</bean>
+
+	<bean id="Shout03" class="acme.entities.shouts.Shout">
+		<property name="author" value="Foo Bar"></property>
+		<property name="text" value="Just turning 20!"></property>
+		<property name="moment" value="2019/09/07 00:00"></property>
+	</bean>
 
 </beans>
