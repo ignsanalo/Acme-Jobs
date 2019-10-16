@@ -32,6 +32,9 @@
             <acme:menu-suboption code="Guillermo´s Link" action="https://github.com/guipavvar"/>
             <acme:menu-separator/>
             <acme:menu-suboption code="Lists" action="/anonymous/shout/list"/>
+            <acme:menu-separator/>
+            <acme:menu-suboption code="Shouts!" action="/anonymous/shout/create"/>
+            
 		</acme:menu-option>
 	
 
