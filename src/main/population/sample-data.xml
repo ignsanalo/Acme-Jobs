@@ -30,4 +30,35 @@
 		<property name="moment" value="2019/09/07 00:00"></property>
 	</bean>
 
+
+	<bean id="Bulletin01" class="acme.entities.bulletins.Bulletin">
+		<property name="surname" value="Diaz"></property>
+		<property name="bulletin" value="Bulletin"></property>
+	</bean>
+
+	<bean id="Bulletin02" class="acme.entities.bulletins.Bulletin">
+		<property name="surname" value="Sanabria"></property>
+		<property name="bulletin" value="Bulletin"></property>
+	</bean>
+
+	<bean id="Bulletin03" class="acme.entities.bulletins.Bulletin">
+		<property name="surname" value="Rubio"></property>
+		<property name="bulletin" value="Bulletin"></property>
+	</bean>
+
+	<bean id="Bulletin04" class="acme.entities.bulletins.Bulletin">
+		<property name="surname" value="Gallardo"></property>
+		<property name="bulletin" value="Bulletin"></property>
+	</bean>
+
+	<bean id="Bulletin05" class="acme.entities.bulletins.Bulletin">
+		<property name="surname" value="Madero"></property>
+		<property name="bulletin" value="Bulletin"></property>
+	</bean>
+
+	<bean id="Bulletin06" class="acme.entities.bulletins.Bulletin">
+		<property name="surname" value="Pavon"></property>
+		<property name="bulletin" value="Bulletin"></property>
+	</bean>
+
 </beans>
