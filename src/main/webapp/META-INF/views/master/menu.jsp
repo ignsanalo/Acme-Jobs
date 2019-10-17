@@ -34,6 +34,11 @@
             <acme:menu-suboption code="Lists" action="/anonymous/shout/list"/>
             <acme:menu-separator/>
             <acme:menu-suboption code="Shouts!" action="/anonymous/shout/create"/>
+            <acme:menu-separator/>
+            <acme:menu-suboption code="Create Bulletin" action="/anonymous/bulletin/create"/>
+            <acme:menu-separator/>
+            <acme:menu-suboption code="Bulletin List" action="/anonymous/bulletin/list"/>
+            
             
 		</acme:menu-option>
 	
