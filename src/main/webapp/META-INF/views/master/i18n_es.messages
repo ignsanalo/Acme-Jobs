@@ -31,6 +31,7 @@ master.menu.sign-out = Salir
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito
 
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
@@ -41,6 +42,16 @@ master.menu.administrator.shutdown = Parar el sistema
 
 master.menu.provider = Proveedor
 master.menu.provider.favourite-link = Enlace favorito
+master.menu.anonymous.Manu-link = Link de Manu
+master.menu.anonymous.Alvaro-link = Link de Álvaro
+master.menu.anonymous.Ignacio-link = Link de Ignacio
+master.menu.anonymous.Adrian-link = Link de Adrián
+master.menu.anonymous.Josema-link = Link de Josema
+master.menu.anonymous.Guillermo-link = Link de Guillermo
+master.menu.anonymous.List-shouts = Listar gritos
+master.menu.anonymous.Shout = Gritar
+master.menu.anonymous.Create-bulletin = Crear boletín
+master.menu.anonymous.List-bulletins = Listar boletines
 
 # master.menu.consumer ##########################################################
 
