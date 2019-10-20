@@ -19,25 +19,25 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-			<acme:menu-suboption code="Manu큦 Link" action="https://github.com/manrubben"/>
+			<acme:menu-suboption code="master.menu.anonymous.Manu-link" action="https://github.com/manrubben"/>
 			<acme:menu-separator/>
-            <acme:menu-suboption code="Alvaro큦 Link" action="https://github.com/alvdiaasc97"/>
+            <acme:menu-suboption code="master.menu.anonymous.Alvaro-link" action="https://github.com/alvdiaasc97"/>
             <acme:menu-separator/>
-            <acme:menu-suboption code="Ignacio큦 Link" action="https://github.com/ignsanalo"/>
+            <acme:menu-suboption code="master.menu.anonymous.Ignacio-link" action="https://github.com/ignsanalo"/>
             <acme:menu-separator/>
-            <acme:menu-suboption code="Adrian큦 Link" action="https://github.com/adrmadfer"/>
+            <acme:menu-suboption code="master.menu.anonymous.Adrian-link" action="https://github.com/adrmadfer"/>
             <acme:menu-separator/>
-            <acme:menu-suboption code="Josema큦 Link" action="https://github.com/josgalbal"/>
+            <acme:menu-suboption code="master.menu.anonymous.Josema-link" action="https://github.com/josgalbal"/>
             <acme:menu-separator/>
-            <acme:menu-suboption code="Guillermo큦 Link" action="https://github.com/guipavvar"/>
+            <acme:menu-suboption code="master.menu.anonymous.Guillermo-link" action="https://github.com/guipavvar"/>
             <acme:menu-separator/>
-            <acme:menu-suboption code="Lists" action="/anonymous/shout/list"/>
+            <acme:menu-suboption code="master.menu.anonymous.Shout" action="/anonymous/shout/create"/>
             <acme:menu-separator/>
-            <acme:menu-suboption code="Shouts!" action="/anonymous/shout/create"/>
+            <acme:menu-suboption code="master.menu.anonymous.List-shouts" action="/anonymous/shout/list"/>
             <acme:menu-separator/>
-            <acme:menu-suboption code="Create Bulletin" action="/anonymous/bulletin/create"/>
+            <acme:menu-suboption code="master.menu.anonymous.Create-bulletin" action="/anonymous/bulletin/create"/>
             <acme:menu-separator/>
-            <acme:menu-suboption code="Bulletin List" action="/anonymous/bulletin/list"/>
+            <acme:menu-suboption code="master.menu.anonymous.List-bulletins" action="/anonymous/bulletin/list"/>
             
             
 		</acme:menu-option>
