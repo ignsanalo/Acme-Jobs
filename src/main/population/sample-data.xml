@@ -39,6 +39,7 @@
 	<bean id="Bulletin02" class="acme.entities.bulletins.Bulletin">
 		<property name="surname" value="SanabriaBoletín"></property>
 		<property name="bulletin" value="El banner ha quedado bien"></property>
+		
 	</bean>
 
 	<bean id="Bulletin03" class="acme.entities.bulletins.Bulletin">
