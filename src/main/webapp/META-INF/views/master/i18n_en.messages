@@ -29,6 +29,7 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
+master.menu.bulletin = Bulletins
 master.menu.anonymous.favourite-link = Favourite link
 master.menu.anonymous.Manu-link = Manu´s link
 master.menu.anonymous.Alvaro-link = Alvaro´s link
@@ -38,8 +39,19 @@ master.menu.anonymous.Josema-link = Josema´s link
 master.menu.anonymous.Guillermo-link = Guillermo´s link
 master.menu.anonymous.List-shouts = List shouts
 master.menu.anonymous.Shout = Shout
-master.menu.anonymous.Create-bulletin = Create bulletin
-master.menu.anonymous.List-bulletins = List bulletins
+master.menu.anonymous.Diaz-bulletin = Create Diazbulletin
+master.menu.anonymous.List-bulletins = List Diazbulletin
+master.menu.anonymous.List-Rubiobulletins = List Rubiobulletin
+master.menu.anonymous.Create-Rubiobulletins = Create Rubiobulletin
+master.menu.anonymous.List-Gallardobulletins = List GallardoBulletin
+master.menu.anonymous.Create-Gallardobulletins = Create GallardoBulletin
+master.menu.anonymous.List-Pavonbulletins = List PavonBulletin
+master.menu.anonymous.Create-Pavonbulletins = Create PavonBulletin
+master.menu.anonymous.List-Maderobulletins = List MaderoBulletin
+master.menu.anonymous.Create-Maderobulletins = Create MaderoBulletin
+master.menu.anonymous.List-Sanabriabulletins = List SanabriaBulletin
+master.menu.anonymous.Create-Sanabriabulletins = Create SanabriaBulletin
+
 
 # master.menu.administrator ###################################################
 

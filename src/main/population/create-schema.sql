@@ -20,14 +20,6 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `bulletin` (
-       `id` integer not null,
-        `version` integer not null,
-        `bulletin` varchar(255),
-        `surname` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
     create table `consumer` (
        `id` integer not null,
         `version` integer not null,
@@ -37,12 +29,61 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `diazbulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `bulletin` varchar(255),
+        `surname` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `gallardobulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `song_author` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `maderobulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `photo` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `pavonbulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `date` date,
+        `text` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `provider` (
        `id` integer not null,
         `version` integer not null,
         `user_account_id` integer,
         `company` varchar(255),
         `sector` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `rubiobulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `link` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `sanabriabulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `song` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 

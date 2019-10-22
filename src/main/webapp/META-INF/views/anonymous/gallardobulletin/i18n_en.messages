@@ -1,0 +1,9 @@
+anonymous.gallardobulletin.form.label.author = Author:
+anonymous.gallardobulletin.form.label.songAuthor = Song Author:
+anonymous.gallardobulletin.form.button.create = Create
+anonymous.gallardobulletin.form.button.return = Return
+
+
+
+anonymous.gallardobulletin.list.label.author = Author
+anonymous.gallardobulletin.list.label.songAuthor = songAuthor

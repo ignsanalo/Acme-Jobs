@@ -31,35 +31,86 @@
 	</bean>
 
 
-	<bean id="Bulletin01" class="acme.entities.bulletins.Bulletin">
+	<bean id="Bulletin01" class="acme.entities.diazbulletin.Diazbulletin">
 		<property name="surname" value="DiazBoletín"></property>
 		<property name="bulletin" value="Añade una foto"></property>
 	</bean>
 
-	<bean id="Bulletin02" class="acme.entities.bulletins.Bulletin">
+	<bean id="Bulletin02" class="acme.entities.diazbulletin.Diazbulletin">
 		<property name="surname" value="SanabriaBoletín"></property>
 		<property name="bulletin" value="El banner ha quedado bien"></property>
 		
 	</bean>
 
-	<bean id="Bulletin03" class="acme.entities.bulletins.Bulletin">
+	<bean id="Bulletin03" class="acme.entities.diazbulletin.Diazbulletin">
 		<property name="surname" value="RubioBoletín"></property>
 		<property name="bulletin" value="Todo funciona correctamente"></property>
 	</bean>
 
-	<bean id="Bulletin04" class="acme.entities.bulletins.Bulletin">
-		<property name="surname" value="GallardoBoletín"></property>
-		<property name="bulletin" value="El banner debe ser personalizado"></property>
-	</bean>
 
-	<bean id="Bulletin05" class="acme.entities.bulletins.Bulletin">
-		<property name="surname" value="MaderoBoletín"></property>
-		<property name="bulletin" value="Los boletines deben ser diferentes"></property>
+	<!-- Rubiobulletin -->
+	
+	<bean id="Ruiobulletin1" class="acme.entities.rubiobulletins.Rubiobulletin">
+		<property name="author" value="Carles carles"></property>
+		<property name="link" value="blablabla.com"></property>
 	</bean>
-
-	<bean id="Bulletin06" class="acme.entities.bulletins.Bulletin">
-		<property name="surname" value="PavónBoletín"></property>
-		<property name="bulletin" value="Comprobad los Shouts"></property>
+	
+	<bean id="Ruiobulletin2" class="acme.entities.rubiobulletins.Rubiobulletin">
+		<property name="author" value="antonio perez"></property>
+		<property name="link" value="jojoblablabla.com"></property>
 	</bean>
+	
+	<!-- Gallardolletin -->
+	
+	<bean id="Gallardobulletin1" class="acme.entities.gallardobulletins.Gallardobulletin">
+		<property name="author" value="antonio perez"></property>
+		<property name="songAuthor" value="Miley Cyrus"></property>
+	</bean>
+	<bean id="Gallardobulletin2" class="acme.entities.gallardobulletins.Gallardobulletin">
+		<property name="author" value="manolo carles"></property>
+		<property name="songAuthor" value="David Bisbal"></property>
+	</bean>
+	
+	<!-- SanabriaBolletin -->
+	
+	<bean id="Sanabriabulletin1" class="acme.entities.sanabriabulletins.Sanabriabulletin">
+		<property name="author" value="manolo"></property>
+		<property name="song" value="macarena"></property>
+	</bean>
+	<bean id="Sanabriabulletin2" class="acme.entities.sanabriabulletins.Sanabriabulletin">
+		<property name="author" value="manu"></property>
+		<property name="song" value="cumpleaños feliz"></property>
+	</bean>
+	
+	<!-- PavonBolletin -->
+	
+	<bean id="Pavonbulletin1" class="acme.entities.pavonbulletins.Pavonbulletin">
+		<property name="author" value="guille"></property>
+		<property name="text" value="cumpleaños"></property>
+		<property name="date" value="2019/09/09 10:00"></property>
+	</bean>
+	<bean id="Pavonbulletin2" class="acme.entities.pavonbulletins.Pavonbulletin">
+		<property name="author" value="juan"></property>
+		<property name="text" value="cumpleaños"></property>
+		<property name="date" value="2018/10/09 11:00"></property>
+	</bean>
+	
+	
+	<!-- MaderoBolletin -->
+	
+	<bean id="Maderobulletin1" class="acme.entities.maderobulletins.Maderobulletin">
+		<property name="author" value="carles"></property>
+		<property name="photo" value="fotoGatitos.com"></property>
+		
+	</bean>
+	
+	<bean id="Maderobulletin2" class="acme.entities.maderobulletins.Maderobulletin">
+		<property name="author" value="antonio"></property>
+		<property name="photo" value="fotoGatitos2.com"></property>
+		
+	</bean>
+	
+	
+	
 
 </beans>

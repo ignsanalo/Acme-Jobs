@@ -1,0 +1,11 @@
+anonymous.pavonbulletin.form.label.author = Author:
+anonymous.pavonbulletin.form.label.text = Text:
+anonymous.pavonbulletin.form.label.date = Date:
+
+anonymous.pavonbulletin.form.button.create = Go!
+anonymous.pavonbulletin.form.button.return = Return
+
+
+anonymous.pavonbulletin.list.label.date = Date
+anonymous.pavonbulletin.list.label.author = Author
+anonymous.pavonbulletin.list.label.text = Text
