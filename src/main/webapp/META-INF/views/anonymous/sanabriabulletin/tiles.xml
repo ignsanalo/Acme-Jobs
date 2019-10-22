@@ -19,7 +19,7 @@
 <tiles-definitions>
 
 	<definition name="anonymous/sanabriabulletin/form" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/sanabriabulletinn/form.jsp" />
+		<put-attribute name="body" type="template" value="../anonymous/sanabriabulletin/form.jsp" />
 	</definition>
 	
 	<definition name="anonymous/sanabriabulletin/list" extends="master">
