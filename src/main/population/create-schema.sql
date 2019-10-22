@@ -37,6 +37,14 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `gallardobulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `song_author` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `provider` (
        `id` integer not null,
         `version` integer not null,

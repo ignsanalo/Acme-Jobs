@@ -74,5 +74,16 @@
 		<property name="link" value="jojoblablabla.com"></property>
 	</bean>
 	
+	<!-- Gallardoulletin -->
+	
+	<bean id="Gallardobulletin1" class="acme.entities.gallardobulletins.Gallardobulletin">
+		<property name="author" value="antonio perez"></property>
+		<property name="songAuthor" value="Miley Cyrus"></property>
+	</bean>
+	<bean id="Gallardobulletin2" class="acme.entities.gallardobulletins.Gallardobulletin">
+		<property name="author" value="manolo carles"></property>
+		<property name="songAuthor" value="David Bisbal"></property>
+	</bean>
+	
 
 </beans>

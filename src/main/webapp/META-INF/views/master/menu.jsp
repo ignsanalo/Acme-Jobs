@@ -42,6 +42,10 @@
             <acme:menu-suboption code="master.menu.anonymous.Create-Rubiobulletins" action="/anonymous/rubiobulletin/create"/>
             <acme:menu-separator/>
             <acme:menu-suboption code="master.menu.anonymous.List-Rubiobulletins" action="/anonymous/rubiobulletin/list"/>
+            <acme:menu-separator/>
+            <acme:menu-suboption code="master.menu.anonymous.Create-Gallardobulletins" action="/anonymous/gallardobulletin/create"/>
+            <acme:menu-separator/>
+            <acme:menu-suboption code="master.menu.anonymous.List-Gallardobulletins" action="/anonymous/gallardobulletin/list"/>
 		</acme:menu-option>
 	
 

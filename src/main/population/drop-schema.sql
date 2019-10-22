@@ -29,6 +29,8 @@
 
     drop table if exists `consumer`;
 
+    drop table if exists `gallardobulletin`;
+
     drop table if exists `provider`;
 
     drop table if exists `rubiobulletin`;
