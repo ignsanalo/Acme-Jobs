@@ -62,6 +62,14 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `sanabriabulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `song` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `shout` (
        `id` integer not null,
         `version` integer not null,

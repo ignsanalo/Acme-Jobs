@@ -35,6 +35,8 @@
 
     drop table if exists `rubiobulletin`;
 
+    drop table if exists `sanabriabulletin`;
+
     drop table if exists `shout`;
 
     drop table if exists `user_account`;

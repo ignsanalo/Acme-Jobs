@@ -74,7 +74,7 @@
 		<property name="link" value="jojoblablabla.com"></property>
 	</bean>
 	
-	<!-- Gallardoulletin -->
+	<!-- Gallardolletin -->
 	
 	<bean id="Gallardobulletin1" class="acme.entities.gallardobulletins.Gallardobulletin">
 		<property name="author" value="antonio perez"></property>
@@ -83,6 +83,17 @@
 	<bean id="Gallardobulletin2" class="acme.entities.gallardobulletins.Gallardobulletin">
 		<property name="author" value="manolo carles"></property>
 		<property name="songAuthor" value="David Bisbal"></property>
+	</bean>
+	
+	<!-- SanabriaBolletin -->
+	
+	<bean id="Sanabriabulletin1" class="acme.entities.sanabriabulletins.Sanabriabulletin">
+		<property name="author" value="manolo"></property>
+		<property name="song" value="macarena"></property>
+	</bean>
+	<bean id="Sanabriabulletin2" class="acme.entities.sanabriabulletins.Sanabriabulletin">
+		<property name="author" value="manu"></property>
+		<property name="song" value="cumpleaños feliz"></property>
 	</bean>
 	
 
