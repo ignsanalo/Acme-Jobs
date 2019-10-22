@@ -46,6 +46,14 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `rubiobulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `link` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `shout` (
        `id` integer not null,
         `version` integer not null,

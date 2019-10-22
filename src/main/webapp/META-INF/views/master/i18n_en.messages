@@ -40,6 +40,8 @@ master.menu.anonymous.List-shouts = List shouts
 master.menu.anonymous.Shout = Shout
 master.menu.anonymous.Create-bulletin = Create bulletin
 master.menu.anonymous.List-bulletins = List bulletins
+master.menu.anonymous.List-Rubiobulletins = List Rubiobulletins
+master.menu.anonymous.Create-Rubiobulletins = Create Rubiobulletins
 
 # master.menu.administrator ###################################################
 

@@ -61,5 +61,18 @@
 		<property name="surname" value="PavónBoletín"></property>
 		<property name="bulletin" value="Comprobad los Shouts"></property>
 	</bean>
+	
+	<!-- Rubiobulletin -->
+	
+	<bean id="Ruiobulletin1" class="acme.entities.rubiobulletins.Rubiobulletin">
+		<property name="author" value="Carles carles"></property>
+		<property name="link" value="blablabla.com"></property>
+	</bean>
+	
+	<bean id="Ruiobulletin2" class="acme.entities.rubiobulletins.Rubiobulletin">
+		<property name="author" value="antonio perez"></property>
+		<property name="link" value="jojoblablabla.com"></property>
+	</bean>
+	
 
 </beans>

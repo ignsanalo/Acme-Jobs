@@ -38,8 +38,10 @@
             <acme:menu-suboption code="master.menu.anonymous.Create-bulletin" action="/anonymous/bulletin/create"/>
             <acme:menu-separator/>
             <acme:menu-suboption code="master.menu.anonymous.List-bulletins" action="/anonymous/bulletin/list"/>
-            
-            
+            <acme:menu-separator/>
+            <acme:menu-suboption code="master.menu.anonymous.Create-Rubiobulletins" action="/anonymous/rubiobulletin/create"/>
+            <acme:menu-separator/>
+            <acme:menu-suboption code="master.menu.anonymous.List-Rubiobulletins" action="/anonymous/rubiobulletin/list"/>
 		</acme:menu-option>
 	
 

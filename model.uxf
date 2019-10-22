@@ -287,8 +287,39 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>203</x>
-      <y>371</y>
+      <x>217</x>
+      <y>455</y>
+      <w>245</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Rubiobulletin
+--
+
++ author: String {NotBlank)
++ link: String {NotBlank)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>476</x>
+      <y>364</y>
+      <w>245</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Bulletin
+--
++ surname: String {NotBlank)
++ Bulletin: String {NotBlank)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>217</x>
+      <y>364</y>
       <w>245</w>
       <h>84</h>
     </coordinates>
@@ -298,21 +329,6 @@ Shout
 + moment: Date {Temporal(TIMESTAMP), Past)
 + author: String {NotBlank)
 + text: String {NotBlank)</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>476</x>
-      <y>371</y>
-      <w>245</w>
-      <h>84</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Entity&gt;&gt;
-Bulletin
---
-+ surname: String {NotBlank)
-+ Bulletin: String {NotBlank)</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
