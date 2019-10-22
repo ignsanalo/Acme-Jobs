@@ -57,9 +57,9 @@
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.bulletin" access="isAnonymous()">
 		
-		<acme:menu-suboption code="master.menu.anonymous.Create-bulletin" action="/anonymous/bulletin/create"/>
+		<acme:menu-suboption code="master.menu.anonymous.Diaz-bulletin" action="/anonymous/diazbulletin/create"/>
             <acme:menu-separator/>		
-            <acme:menu-suboption code="master.menu.anonymous.List-bulletins" action="/anonymous/bulletin/list"/>
+            <acme:menu-suboption code="master.menu.anonymous.List-bulletins" action="/anonymous/diazbulletin/list"/>
             <acme:menu-separator/>
             <acme:menu-suboption code="master.menu.anonymous.Create-Rubiobulletins" action="/anonymous/rubiobulletin/create"/>
             <acme:menu-separator/>

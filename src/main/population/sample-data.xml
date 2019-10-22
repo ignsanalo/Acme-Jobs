@@ -31,37 +31,23 @@
 	</bean>
 
 
-	<bean id="Bulletin01" class="acme.entities.bulletins.Bulletin">
+	<bean id="Bulletin01" class="acme.entities.diazbulletin.Diazbulletin">
 		<property name="surname" value="DiazBoletín"></property>
 		<property name="bulletin" value="Añade una foto"></property>
 	</bean>
 
-	<bean id="Bulletin02" class="acme.entities.bulletins.Bulletin">
+	<bean id="Bulletin02" class="acme.entities.diazbulletin.Diazbulletin">
 		<property name="surname" value="SanabriaBoletín"></property>
 		<property name="bulletin" value="El banner ha quedado bien"></property>
 		
 	</bean>
 
-	<bean id="Bulletin03" class="acme.entities.bulletins.Bulletin">
+	<bean id="Bulletin03" class="acme.entities.diazbulletin.Diazbulletin">
 		<property name="surname" value="RubioBoletín"></property>
 		<property name="bulletin" value="Todo funciona correctamente"></property>
 	</bean>
 
-	<bean id="Bulletin04" class="acme.entities.bulletins.Bulletin">
-		<property name="surname" value="GallardoBoletín"></property>
-		<property name="bulletin" value="El banner debe ser personalizado"></property>
-	</bean>
 
-	<bean id="Bulletin05" class="acme.entities.bulletins.Bulletin">
-		<property name="surname" value="MaderoBoletín"></property>
-		<property name="bulletin" value="Los boletines deben ser diferentes"></property>
-	</bean>
-
-	<bean id="Bulletin06" class="acme.entities.bulletins.Bulletin">
-		<property name="surname" value="PavónBoletín"></property>
-		<property name="bulletin" value="Comprobad los Shouts"></property>
-	</bean>
-	
 	<!-- Rubiobulletin -->
 	
 	<bean id="Ruiobulletin1" class="acme.entities.rubiobulletins.Rubiobulletin">

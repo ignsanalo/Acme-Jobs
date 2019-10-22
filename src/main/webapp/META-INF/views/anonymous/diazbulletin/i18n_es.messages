@@ -1,4 +1,4 @@
-# i18n_en.messages
+# i18n_es.messages
 #
 # Copyright (c) 2019 Rafael Corchuelo.
 #
@@ -9,12 +9,12 @@
 # they accept any liabilities with respect to them.
 
 
-anonymous.bulletin.form.label.surname = Surname:
-anonymous.bulletin.form.label.bulletin = Bulletin:
-anonymous.bulletin.form.button.create = Send
-anonymous.bulletin.form.button.return = Return
+
+anonymous.diazbulletin.form.label.surname = Apellidos:
+anonymous.diazbulletin.form.label.bulletin = Boletín:
+anonymous.diazbulletin.form.button.create = Enviar
+anonymous.diazbulletin.form.button.return = Volver
 
 
-anonymous.bulletin.list.label.surname = Surname
-anonymous.bulletin.list.label.bulletin = Bulletin
-
+anonymous.diazbulletin.list.label.surname = Apellidos
+anonymous.diazbulletin.list.label.bulletin = Boletín

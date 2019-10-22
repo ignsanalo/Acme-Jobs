@@ -1,5 +1,5 @@
 /*
- * AnonymousBulletinCreateService.java
+ * AnonymousDiazbulletinCreateService.java
  *
  * Copyright (c) 2019 Rafael Corchuelo.
  *
@@ -10,12 +10,12 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.anonymous.bulletin;
+package acme.features.anonymous.diazbulletin;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.bulletins.Bulletin;
+import acme.entities.diazbulletin.Diazbulletin;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
@@ -23,28 +23,28 @@ import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractCreateService;
 
 @Service
-public class AnonymousBulletinCreateService implements AbstractCreateService<Anonymous, Bulletin> {
+public class AnonymousDiazbulletinCreateService implements AbstractCreateService<Anonymous, Diazbulletin> {
 
 	// Internal state ----------------------------------------------------------
 
 	@Autowired
-	AnonymousBulletinRepository repository;
+	AnonymousDiazbulletinRepository repository;
 
 
 	@Override
-	public boolean authorise(final Request<Bulletin> request) {
+	public boolean authorise(final Request<Diazbulletin> request) {
 		assert request != null;
 
 		return true;
 	}
 
 	@Override
-	public Bulletin instantiate(final Request<Bulletin> request) {
+	public Diazbulletin instantiate(final Request<Diazbulletin> request) {
 		assert request != null;
 
-		Bulletin result;
+		Diazbulletin result;
 
-		result = new Bulletin();
+		result = new Diazbulletin();
 		result.setSurname("");
 		result.setBulletin("");
 
@@ -52,7 +52,7 @@ public class AnonymousBulletinCreateService implements AbstractCreateService<Ano
 	}
 
 	@Override
-	public void unbind(final Request<Bulletin> request, final Bulletin entity, final Model model) {
+	public void unbind(final Request<Diazbulletin> request, final Diazbulletin entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
@@ -61,7 +61,7 @@ public class AnonymousBulletinCreateService implements AbstractCreateService<Ano
 	}
 
 	@Override
-	public void bind(final Request<Bulletin> request, final Bulletin entity, final Errors errors) {
+	public void bind(final Request<Diazbulletin> request, final Diazbulletin entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
@@ -71,7 +71,7 @@ public class AnonymousBulletinCreateService implements AbstractCreateService<Ano
 	}
 
 	@Override
-	public void validate(final Request<Bulletin> request, final Bulletin entity, final Errors errors) {
+	public void validate(final Request<Diazbulletin> request, final Diazbulletin entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
@@ -79,7 +79,7 @@ public class AnonymousBulletinCreateService implements AbstractCreateService<Ano
 	}
 
 	@Override
-	public void create(final Request<Bulletin> request, final Bulletin entity) {
+	public void create(final Request<Diazbulletin> request, final Diazbulletin entity) {
 		assert request != null;
 		assert entity != null;
 

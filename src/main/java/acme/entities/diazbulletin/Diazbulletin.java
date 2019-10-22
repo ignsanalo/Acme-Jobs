@@ -1,5 +1,5 @@
 
-package acme.entities.bulletins;
+package acme.entities.diazbulletin;
 
 import javax.persistence.Entity;
 import javax.validation.constraints.NotBlank;
@@ -11,7 +11,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Bulletin extends DomainEntity {
+public class Diazbulletin extends DomainEntity {
 
 	//Serialisation identifier -------------------------------------------------------------------------------
 
