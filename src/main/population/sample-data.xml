@@ -110,5 +110,21 @@
 	</bean>
 	
 	
+	<!-- MaderoBolletin -->
+	
+	<bean id="Maderobulletin1" class="acme.entities.maderobulletins.Maderobulletin">
+		<property name="author" value="carles"></property>
+		<property name="photo" value="fotoGatitos.com"></property>
+		
+	</bean>
+	
+	<bean id="Maderobulletin2" class="acme.entities.maderobulletins.Maderobulletin">
+		<property name="author" value="antonio"></property>
+		<property name="photo" value="fotoGatitos2.com"></property>
+		
+	</bean>
+	
+	
+	
 
 </beans>

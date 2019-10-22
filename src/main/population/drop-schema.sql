@@ -31,6 +31,8 @@
 
     drop table if exists `gallardobulletin`;
 
+    drop table if exists `maderobulletin`;
+
     drop table if exists `pavonbulletin`;
 
     drop table if exists `provider`;

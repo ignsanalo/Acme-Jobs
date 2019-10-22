@@ -54,6 +54,14 @@ master.menu.anonymous.Create-bulletin = Crear boletín
 master.menu.anonymous.List-bulletins = Listar boletines
 master.menu.anonymous.List-Rubiobulletins = Listar bulletines
 master.menu.anonymous.Create-Rubiobulletins = Crear bulletines
+master.menu.anonymous.List-Gallardobulletins = Listar GallardoBulletin
+master.menu.anonymous.Create-Gallardobulletins = Crear GallardoBulletin
+master.menu.anonymous.List-Pavonbulletins = Listar PavonBulletin
+master.menu.anonymous.Create-Pavonbulletins = Crear PavonBulletin
+master.menu.anonymous.List-Maderobulletins = Listar MaderoBulletin
+master.menu.anonymous.Create-Maderobulletins = Crear MaderoBulletin
+master.menu.anonymous.List-Sanabriabulletins = Listar SanabriaBulletin
+master.menu.anonymous.Create-Sanabriabulletins = Crear SanabriaBulletin
 
 # master.menu.consumer ##########################################################
 
