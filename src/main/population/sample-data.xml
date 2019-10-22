@@ -96,5 +96,19 @@
 		<property name="song" value="cumpleaños feliz"></property>
 	</bean>
 	
+	<!-- PavonBolletin -->
+	
+	<bean id="Pavonbulletin1" class="acme.entities.pavonbulletins.Pavonbulletin">
+		<property name="author" value="guille"></property>
+		<property name="text" value="cumpleaños"></property>
+		<property name="date" value="2019/09/09 10:00"></property>
+	</bean>
+	<bean id="Pavonbulletin2" class="acme.entities.pavonbulletins.Pavonbulletin">
+		<property name="author" value="juan"></property>
+		<property name="text" value="cumpleaños"></property>
+		<property name="date" value="2018/10/09 11:00"></property>
+	</bean>
+	
+	
 
 </beans>

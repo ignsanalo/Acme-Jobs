@@ -45,6 +45,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `pavonbulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `date` date,
+        `text` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `provider` (
        `id` integer not null,
         `version` integer not null,
