@@ -1,9 +1,9 @@
 anonymous.sanabriabulletin.form.label.author = Autor:
 anonymous.sanabriabulletin.form.label.song = Cancion:
-anonymous.sanabriabulletin.form.button.create = Crerar!
+anonymous.sanabriabulletin.form.button.create = Crear
 anonymous.sanabriabulletin.form.button.return = Volver
 
 
 
 anonymous.sanabriabulletin.list.label.author = Autor
-anonymous.sanabriabulletin.list.label.song = Canncion
+anonymous.sanabriabulletin.list.label.song = Cancion
